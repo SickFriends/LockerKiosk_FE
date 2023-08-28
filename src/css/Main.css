@@ -1,0 +1,86 @@
+.center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: forestgreen;
+  color: white;
+  width: 17vh;
+  border: 1px white solid;
+  height: 5vh;
+}
+
+.button_cancel {
+  background-color: firebrick;
+  color: white;
+  width: 17vh;
+  border: 1px white solid;
+  height: 5vh;
+}
+
+.tittle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 7vw;
+  font-weight: bolder;
+}
+
+.password {
+  text-align: center;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.number-pad {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+  font-size: 5vh;
+  color: white;
+}
+
+.subTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.space {
+  display: inline;
+  width: 90%;
+}
+
+.box {
+  display: inline-block;
+  width: 15vw;
+  height: 15vw;
+  font-size: 11vw;
+  margin: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
